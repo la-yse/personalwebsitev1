@@ -1,0 +1,31 @@
+/*====== RESET =====*/
+* {
+margin: 0; 
+padding: 0; 
+font-size: 100%; 
+border: none; 
+outline: none; 
+font-weight: 300; 
+box-sizing: border-box; 
+font-family: Inter;
+}
+
+body {background-color: #1E1E1E;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+
+
+/*====== CSS =====*/
+
+.proj-body p {
+color: rgb(124, 124, 124);
+font-size: 3em;
+font-family: Inter;
+margin-top: 50%;
+font-weight: 600;
+}
+
+.buttons-project {
+margin-top: 50%;
+}
