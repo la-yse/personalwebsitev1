@@ -44,7 +44,8 @@ form {
 background-color: #1E1E1E;
 width: 70%;
 height: 80%;
-margin-top: 20%;
+margin-top: 10%;
+
 
 }
 
@@ -86,5 +87,12 @@ font-weight: 500;
 padding: 2%;
 text-align: center;
 cursor: pointer;
+margin: 0;
+position: absolute;
+top: 70%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+
 }
 
