@@ -42,8 +42,9 @@ align-items: center;
 
 form {
 background-color: #1E1E1E;
-width: 60%;
-height: 50%;
+width: 70%;
+height: 80%;
+
 }
 
 .input-group {
@@ -57,7 +58,6 @@ padding: 5%;
 outline: 0;
 color: #fff;
 background-color: #383838;
-font-size: 1em;
 }
 
 label {
@@ -66,23 +66,24 @@ position: absolute;
 left: 0;
 top: 0;
 color: #787878;
-font-size: 1.3em;
+font-size: 2em;
 cursor: text;
 font-family: Inter;
 padding: 4%;
 }
 
 #btnsubmit {
-width: 35%;
-height: 10%;
+width: 40%;
+height: 5%;
 font-size: 1.5em;
 border-radius: 50px;
 background: #C294FF;
 font-family: Inter;
-color: black;
+color: rgb(35, 35, 35);
 font-weight: 500;
 padding: 3%;
 margin-right: 3%;
 text-align: center;
-cursor: pointer;}
+cursor: pointer;
+}
 
