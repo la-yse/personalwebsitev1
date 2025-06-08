@@ -67,9 +67,7 @@ body {
     font-family: "Lato", sans-serif;
     list-style: none;
     font-size: 20px;
-    cursor: pointer;
     width: 150px;
-    font-family: "Lato", sans-serif;
     line-height: 1.6;
     font-weight: 700;
     text-align: left;
@@ -77,6 +75,14 @@ body {
 
 .navmenu ul a {
     color: #964651;
+    text-decoration-line: none;
+    cursor: pointer;
+
+
+}
+
+.navmenu ul a:hover {
+    color: #c69fa5;
     text-decoration-line: none;
 
 }
@@ -93,6 +99,20 @@ body {
     width: 200px;
     height: 250px;
 }
+
+.footer {
+    padding: 0.1em;
+    background-color: #964651;
+
+}
+
+.footerCopy {
+    font-family: "Lato", sans-serif;
+    color: #c0abad;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
 
 /* ================== About Page ======================== */
 
