@@ -1,5 +1,6 @@
 /* ================== Global reset & styling ======================== */
 
+
 html,
 body {
     margin: 0;
@@ -62,19 +63,23 @@ body {
     height: 100%;
 }
 
-.btn-menu-vertical {
-    border: none;
-    color: #964651;
-    background-color: #E7C9C9;
-    padding: 1rem;
+.navmenu ul {
+    font-family: "Lato", sans-serif;
+    list-style: none;
     font-size: 20px;
     cursor: pointer;
     width: 150px;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
-    text-align: center;
+    line-height: 1.6;
+    font-weight: 700;
+    text-align: left;
 }
 
+.navmenu ul a {
+    color: #964651;
+    text-decoration-line: none;
+
+}
 
 /* ================== Projects Page ======================== */
 
