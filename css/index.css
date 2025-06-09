@@ -6,12 +6,17 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: #EDEFE6;
     color: #333;
 }
 
 /* ================== Home Page ======================== */
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     width: 100%;
@@ -75,35 +80,21 @@ body {
 
 .navmenu ul a {
     color: #964651;
-    text-decoration-line: none;
+    text-decoration: none;
+    transition: color 0.3s ease;
     cursor: pointer;
-
-
 }
 
 .navmenu ul a:hover {
     color: #c69fa5;
-    text-decoration-line: none;
-
-}
-
-/* ================== Projects Page ======================== */
-
-.project-grid {
-    display: flex;
-}
-
-.project-item {
-    background-color: rgb(151, 145, 145);
-    margin: 10px;
-    width: 200px;
-    height: 250px;
 }
 
 .footer {
-    padding: 0.1em;
+    padding: 0.1px;
     background-color: #964651;
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footerCopy {
@@ -112,10 +103,3 @@ body {
     font-size: 0.8rem;
     text-align: center;
 }
-
-
-/* ================== About Page ======================== */
-
-/* ================== Contacts Page ======================== */
-
-/* ================== Media Queries ======================== */
